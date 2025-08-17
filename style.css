@@ -21,13 +21,6 @@ p, li, span, a {
   line-height: 1.6;
 }
 
-#resume a{
-  font-weight: 400;
-  line-height: 1.6;
-  text-decoration: none;
-  color: inherit;
-}
-
 /* Sidebar */
 .sidebar {
   position: fixed;
@@ -311,6 +304,23 @@ h1 {
 .pub-journal,
 .pub-description {
   margin: 0.1em 0;
+}
+
+.resume-section {
+  max-width: 900px;
+  margin: auto;
+}
+
+.resume-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+#resume a{
+  font-size: 0.95em;
+  color: #ccc;
+  margin: 5px 0;
+  text-decoration: none;
 }
 
 /* Mobile */
