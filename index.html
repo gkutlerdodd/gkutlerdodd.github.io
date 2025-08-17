@@ -1,0 +1,179 @@
+<!-- Google Font: Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <aside class="sidebar" id="sidebar">
+    <img src="media/gkd_photo.jpeg" class="profile-pic"/>
+    <nav>
+      <ul>
+        <li><a href="#about" class="nav-link active"><i class="fas fa-user"></i> About</a></li>
+        <li><a href="#research" class="nav-link"><i class="fas fa-chart-line"></i> Research</a></li>
+        <li><a href="#education" class="nav-link"><i class="fas fa-graduation-cap"></i> Education</a></li>
+        <li><a href="#resume" class="nav-link"><i class="fas fa-file-alt"></i> Resume</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Mobile top bar -->
+  <header class="mobile-header">
+    <button id="menu-toggle" class="menu-toggle"><i class="fas fa-bars"></i></button>
+  </header>
+
+  <main>
+    <!-- About -->
+    <section id="about" class="section">
+      <h1>Hi, I'm Griffin Kutler Dodd.</h1>
+      <p class="description">I'm a theoretical biology student pursing a Master's of Science in Bioinformatics & Biocomplexity at Utrecht University. I study the evolution of the immune system and host-virus interactions with bioinformatics and mathematical modeling.</p>
+      <div class="social-buttons">
+        <a href="https://www.linkedin.com/in/griffinkd/" target="_blank" class="social-btn linkedin"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/gkutlerdodd" target="_blank" class="social-btn github"><i class="fab fa-github"></i></a>
+      </div>
+    </section>
+
+    <section id="research" class="section research-section">
+      <h2>Research</h2>
+
+      <div class="accordion-item">
+        <button class="accordion-header">
+          Evolution of Adaptive Immunity
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-summary">
+          I investigate how the adaptive immune system evolves, focusing on MHC molecules, which are proteins that present viral fragments to immune cells. I analyze the diversity and function of these molecules in humans and other primates to study how they influence, and are shaped by, viral evolution.
+        </div>
+        <div class="accordion-content">
+          <h4>Current Projects</h4>
+          <ul>
+            <li>Building a software tool to simulate viral evolution under selective pressure from MHC class I molecules using <i>in silico</i> epitope prediction.</li>
+            <li>Studying whether common HLA haplotypes have peptide-binding repertoires with special properties.</li>
+          </ul>
+
+          <h4>Publications</h4>
+          <ul>
+            <div class="publication">
+              <p class="pub-title"><strong><i>In silico</i> functional analysis of the human, chimpanzee, and gorilla MHC-A repertoires</strong></p>
+              <p class="pub-authors"><strong>Griffin Kutler Dodd</strong>, Can Keşmir</p>
+              <p class="pub-journal"><em>Immunogenetics</em>, 2025</p>
+              <p class="pub-description">We used <i>in silico</i> epitope prediction methods to study the functional diversity of the MHC-A locus in primates. We found that both gorillas and chimpanzees surprisingly lack a peptide binding specificity (A02) that is common in human populations.</p>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-header">
+          Dynamics of Viral Infections
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-summary">
+          I use mathematical modeling to study how the immune system responds to viral infections. By focusing on HIV as a model, I explore how the virus and immune system interact, why some treatments succeed or fail, and how therapy might be improved.
+        </div>
+        <div class="accordion-content">
+          <h4>Current Projects</h4>
+          <ul>
+            <li>Using mathematical modeling and machine learning to optimize HIV-1 broadly neutralizing antibodies to improve vaccine development.</li>
+          </ul>
+
+          <h4>Publications</h4>
+          <ul>
+            <div class="publication">
+              <p class="pub-title"><strong>Immune Responses May Make HIV-1 Therapeutic Interfering Particles Less Effective</strong></p>
+              <p class="pub-authors"><strong>Griffin Kutler Dodd</strong>, Rob de Boer</p>
+              <p class="pub-journal">Under review in <em>Journal of Theoretical Biology</em></p>
+              <p class="pub-description">We built a novel mathematical model of therapeutic interfering particles (TIPs), which are viral deletion mutants that compete with the wild-type virus to reduce viral load. We found that immune responses may limit the efficacy of TIPs for treating HIV-1 infection.</p>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-header">
+          Immune-Microbiome Interactions
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-summary">
+          I study the interplay between the gut microbiome and the immune system, with a particular focus on how dysbiosis can lead to the development of (neuro)immune disease.
+        </div>
+        <div class="accordion-content">
+          <h4>Current Projects</h4>
+          <ul>
+            <li>Testing for HLA associations with microbiome composition and immune markers in Alzheimer's disease and myalgic encephalomyelitis.</li>
+          </ul>
+
+          <h4>Publications</h4>
+          <ul>
+            <div class="publication">
+              <p class="pub-title"><strong>Mucosal Immunity and the Gut-Microbiota-Brain-Axis in Neuroimmune Disease</strong></p>
+              <p class="pub-authors">Kathryn G Sterling, <strong>Griffin Kutler Dodd</strong>, Shatha Alhamdi, Peter G Asimenios, Ruben K Dagda, Kenny L De Meirleir, Dorothy Hudig, Vincent C Lombardi</p>
+              <p class="pub-journal"><em>International Journal of Molecular Sciences</em>, 2022</p>
+              <p class="pub-description">We reviewed the mechanisms by which mucosal immunity shape the gut microbiome and what is known about microbiome contributions to common neuroimmune diseases.</p>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+      <div class="accordion-item-no-bottom">
+        <button class="accordion-header">
+          Computational Complexity and Evolution
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-summary">
+          Recently, tools from theoretical computer science have been used to study biological evolution. I contribute to this by comparing evolution to a local search algorithm to study limitations on evolving "optimal" traits.
+        </div>
+        <div class="accordion-content">
+          <h4>Current Projects</h4>
+          <ul>
+            <li>Studying how computational complexity affects the evolution of behavioral traits (costly learning and cooperation).</li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="education" class="section education-section">
+      <h2>Education</h2>
+
+      <div class="edu-item">
+        <div class="edu-logo-wrap">
+          <img src="media/uu-logo.png" alt="Utrecht University" class="edu-logo">
+        </div>
+        <div class="edu-content">
+          <h3>Utrecht University</h3>
+          <p class="degree">Master of Science in Bioinformatics and Biocomplexity</p>
+          <p class="date">2025 - Present</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="edu-item">
+        <div class="edu-logo-wrap">
+          <img src="media/uu-logo.png" alt="Utrecht University" class="edu-logo">
+        </div>
+        <div class="edu-content">
+          <h3>Utrecht University</h3>
+          <p class="degree">Bachelor of Science in Molecular and Biophysical Life Sciences</p>
+          <p class="date">2022 - 2025</p>
+          <p>Graduated <i>cum laude</i> and with honours</p>
+          <ul>
+            <li>Relevant coursework: Bioinformatics & Dynamical Modeling, Genome Bioinformatics, Computational Biology, Machine Learning, Omics for the Life Sciences, Methods and Models in Complex Systems</li>
+            <li>Teaching assistant and course developer for Host-Microbe Interactions</li>
+            <li>Created course materials for Bioinformatics & Dynamical Modeling, Genome Bioinformatics</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" class="section">
+      <h2>Resume</h2>
+      <a href="media/gkd_CV.pdf" target="_blank">Click here to see my full resume!</a>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
