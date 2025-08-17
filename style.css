@@ -21,6 +21,14 @@ p, li, span, a {
   line-height: 1.6;
 }
 
+#about {
+  display: flex;
+  flex-direction: column;   /* Stack elements vertically */
+  justify-content: center;  /* Vertically center content */
+  align-items: center;      /* Horizontally center content */
+  text-align: center;       /* Center the text */
+}
+
 #resume a{
   font-weight: 400;
   line-height: 1.6;
